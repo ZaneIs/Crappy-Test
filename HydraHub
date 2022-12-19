@@ -17,7 +17,6 @@ if is_sirhurt_closure then
     Players.LocalPlayer:Kick("get krnl sirhurt user")
 end
 
-
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
@@ -743,8 +742,8 @@ combatKillauraSection:Toggle({
                     v.PARRY_COOLDOWN_IN_SECONDS = 0
                     v.PARRY_COOLDOWN_IN_SECONDS_AFTER_SUCCESSFUL_PARRY = 0
                 else
-                    v.PARRY_COOLDOWN_IN_SECONDS = 3
-                    v.PARRY_COOLDOWN_IN_SECONDS_AFTER_SUCCESSFUL_PARRY = 0.33
+                    v.PARRY_COOLDOWN_IN_SECONDS = 0
+                    v.PARRY_COOLDOWN_IN_SECONDS_AFTER_SUCCESSFUL_PARRY = 0
                 end
             end
         end
