@@ -105,11 +105,11 @@ local ScaleCalculators = {
 	end,
 }
 local Check, Spring = Load(
-	"https://raw.githubusercontent.com/lncoognito/ROBLOX/main/Boobs/Spring.lua",
+	"https://raw.githubusercontent.com/ZaneIs/Nothing-here/main/Spring",
 	"Spring"
 )
 local Check, FemaleRig = Load(
-	"https://raw.githubusercontent.com/lncoognito/ROBLOX/main/Boobs/FemaleRig.lua",
+	"https://raw.githubusercontent.com/ZaneIs/Nothing-here/main/FemaleR63Rig",
 	"FemaleRig",
 	Settings.Collisions
 )
