@@ -75,7 +75,7 @@ while getgenv().RunScript do
 end
 
 game:GetService("Players").LocalPlayer.Character:WaitForChild("Humanoid").Died:Connect(function()
-  warn("Player Died!")
+                warn("Player Died!")
                 getgenv().RunScript = false
                 break  
             end
