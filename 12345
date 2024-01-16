@@ -1,3 +1,10 @@
+game:GetService("Players").LocalPlayer.Character:WaitForChild("Humanoid").Died:Connect(function()
+        warn("Player Died! Stopping the script.")
+        getgenv().RunScript = false
+        break  
+    end
+end)
+
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
@@ -73,18 +80,3 @@ while getgenv().RunScript do
         break  
     end
 end
-
-game:GetService("Players").LocalPlayer.Character:WaitForChild("Humanoid").Died:Connect(function()
-                warn("Player Died!")
-                getgenv().RunScript = false
-                break  
-            end
-
-            wait(1)  -- Add a delay before checking for items again
-        end
-    else
-        warn("Player Died!")
-        getgenv().RunScript = false
-        break  
-    end
-end)
