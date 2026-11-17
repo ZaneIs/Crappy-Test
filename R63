@@ -105,11 +105,11 @@ local ScaleCalculators = {
 	end,
 }
 local Check, Spring = Load(
-	"https://raw.githubusercontent.com/ZaneIs/Nothing-here/main/Spring",
+	"https://raw.githubusercontent.com/ZaneIs/Testing/refs/heads/main/Spring",
 	"Spring"
 )
 local Check, FemaleRig = Load(
-	"https://raw.githubusercontent.com/ZaneIs/Nothing-here/main/FemaleR63Rig",
+	"https://raw.githubusercontent.com/ZaneIs/Testing/refs/heads/main/FemaleR63Rig",
 	"FemaleRig",
 	Settings.Collisions
 )
